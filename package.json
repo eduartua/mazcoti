@@ -1,0 +1,50 @@
+{
+  "name": "platzigram",
+  "version": "0.1.0",
+  "description": "Comparte tus fotos estudiando con el resto de la comunidad.",
+  "main": "server.js",
+  "keywords": [
+    "platzi",
+    "javascript",
+    "curso-definitivo",
+    "platzigram"
+  ],
+  "author": "eduar",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.6.12",
+    "axios": "^0.14.0",
+    "empty-element": "^1.0.0",
+    "express": "^4.13.4",
+    "file-extension": "^3.0.2",
+    "gulp-rename": "^1.2.2",
+    "intl": "^1.2.5",
+    "intl-messageformat": "^1.3.0",
+    "intl-relativeformat": "^1.3.0",
+    "materialize-css": "^0.97.6",
+    "moment": "^2.15.1",
+    "multer": "^1.2.0",
+    "multer-s3": "^2.3.2",
+    "page": "^1.7.1",
+    "pug": "^2.0.0-beta2",
+    "superagent": "^2.3.0",
+    "title": "^1.0.0",
+    "yo-yo": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-regenerator": "^6.14.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp watch & node server.js"
+  }
+}
